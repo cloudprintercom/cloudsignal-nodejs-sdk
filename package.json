@@ -1,0 +1,40 @@
+{
+  "name": "@cloudprinter/cloudsignal",
+  "homepage": "https://cloudprinter.com",
+  "version": "1.0.1",
+  "description": "The library that help developers easily integrate with CloudPrinter CloudSignal.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --recursive",
+    "build": "babel --presets es2015 --plugins transform-class-properties -d lib/ src",
+    "clean": "rm -rf lib/ coverage/"
+  },
+  "keywords": [
+    "cloudprintercom",
+    "cloudprinter",
+    "print-cloud",
+    "cloudsignal",
+    "print"
+  ],
+  "author": "Vasyl Kushniruk <kushniruk92@gmail.com> (https://github.com/kushniruk)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudprintercom/cloudsignal-nodejs-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/cloudprintercom/cloudsignal-nodejs-sdk/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^6.3.0",
+    "mocha": "^6.2.0",
+    "rimraf": "^2.6.3"
+  },
+  "dependencies": {
+    "@types/node": ">=4.2.0",
+    "superagent": "^3.3.1",
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  }
+}
