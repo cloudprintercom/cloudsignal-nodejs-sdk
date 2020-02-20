@@ -7,6 +7,10 @@ Our platform makes use of smart routing algoritms to route any print job to the 
 
 Visit our [website](https://www.cloudprinter.com) for more information on all the products and services that we offer.
 
+## Full documentation
+Follow the [link](https://github.com/cloudprintercom/cloudsignal-nodejs-sdk/wiki/NodeJS-SDK-CloudSignal-documentation) to read the full documentation.
+
+
 ## Installation 
 The CloudSignal SDK can be installed with NPM. Run this command:
 ```
@@ -90,3 +94,7 @@ eventHandler.on('error', (errorData) => {
     // handle
 });
 ```
+
+## Read more information
+Follow the [link](https://github.com/cloudprintercom/cloudsignal-nodejs-sdk/wiki/NodeJS-SDK-CloudSignal-documentation) to read the full documentation.
+
